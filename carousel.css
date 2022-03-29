@@ -58,7 +58,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 1rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -67,6 +67,12 @@ body {
   line-height: 1;
   /* rtl:remove */
   letter-spacing: -.05rem;
+}
+
+.reviews {
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
 }
 
 
@@ -88,6 +94,6 @@ body {
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 3rem;
   }
 }
