@@ -58,13 +58,14 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 1rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0;/* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
+  margin-left: 30px;
   /* rtl:remove */
   letter-spacing: -.05rem;
 }
